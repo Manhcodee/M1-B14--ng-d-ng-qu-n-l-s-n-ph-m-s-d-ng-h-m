@@ -18,8 +18,8 @@ function myData() {
         containerItem.appendChild(productItem);
     })
 }
-
 document.getElementById("productCount").innerText = `${arrApp.length} products`;
+
 
 function addS() {
     let newProduct = document.getElementById('newProduct').value;
@@ -42,5 +42,6 @@ function edit(index) {
         myData();
     }
 }
+
 
 window.onload = myData;
