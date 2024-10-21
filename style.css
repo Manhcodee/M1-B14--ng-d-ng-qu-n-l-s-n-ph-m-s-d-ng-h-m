@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid #50af50;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 26px;
+    margin: 20px 0;
+}
+
+.my_color {
+    width: 550px;
+    height: 100px;
+    background: #f2f2f2;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+input {
+    height: 40px;
+    width: 75%;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 16px;
+    padding: 5px;
+    border: unset;
+}
+
+.btn {
+    height: 40px;
+    width: 100px;
+    background: #50af50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.name_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.color_pro {
+    color: #a52a2a;
+}
+
+.name_header {
+    margin: 30px 0;
+}
+
+.name_header > span {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.container_item {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.item_name-main {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.item_name-s {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-name {
+    font-size: 18px;
+}
+
+.color_ss {
+    background: #f2f2f2;
+}
+
